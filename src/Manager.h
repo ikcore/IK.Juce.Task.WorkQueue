@@ -36,7 +36,7 @@ namespace ik::jucex::task::work_queue
 		}
 
 	private:
-		std::unique_ptr<WorkItem> item = { nullptr };
+		std::unique_ptr<Item> item = { nullptr };
 	};
 
 	class Manager
